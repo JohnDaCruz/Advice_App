@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "advice_app",
+    "name": "app",
     "slug": "advice_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "app.do.jao.piroca"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8329737d-08bf-454f-8bdb-408f6fbabef8"
+      }
     }
   }
 }
