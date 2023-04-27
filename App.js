@@ -5,19 +5,15 @@ export default function App() {
 
   return (
 
-    <View style={styles.container}>
-      <StatusBar style={"dark"} backgroundColor="#F5F5F5" />
+    <View style={{
+      flex: 1,
+      flexDirection: 'column',
+      backgroundColor: '#FFBD44',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }}>
+      <StatusBar barStyle={"dark-content"} backgroundColor="#FFBD44" />
       <Main />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'column',
-    backgroundColor: '#FFBD44',
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-});

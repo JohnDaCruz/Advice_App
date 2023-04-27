@@ -1,4 +1,4 @@
-import { Text, View, TouchableOpacity, Share, Vibration } from 'react-native';
+import { Text, View, TouchableOpacity, Share, Vibration, StatusBar } from 'react-native';
 import { useEffect, useState } from 'react';
 import React from 'react'
 import styles from './style';
